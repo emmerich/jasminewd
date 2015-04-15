@@ -142,6 +142,7 @@ global.it = wrapInControlFlow(global.it, 'it');
 global.iit = wrapInControlFlow(global.iit, 'iit');
 global.beforeEach = wrapInControlFlow(global.beforeEach, 'beforeEach');
 global.afterEach = wrapInControlFlow(global.afterEach, 'afterEach');
+global.beforeAll = wrapInControlFlow(global.beforeAll, 'beforeAll');
 
 
 /**
